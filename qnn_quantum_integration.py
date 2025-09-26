@@ -12,7 +12,7 @@ import time
 from tqdm import tqdm
 
 # Importar clases base de la QNN original
-from qnn_advanced import AdvancedQNN, QNNConfig, QNNParams, QuantumOptimizer, DatabaseManager
+from quantum_nn import AdvancedQNN, QNNConfig, QNNParams, QuantumOptimizer, DatabaseManager
 
 # Nuevas configuraciones para componentes cuánticos personalizados
 @dataclass
