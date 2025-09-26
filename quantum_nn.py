@@ -9,9 +9,7 @@ from sklearn.datasets import make_classification, load_breast_cancer
 import sqlite3
 import json
 import time
-from tqdm import tqdm # Para una barra de progreso agradable
-
-# --- Clases de Configuración y Base de Datos (Sin cambios mayores, solo correcciones menores) ---
+from tqdm import tqdm 
 
 @dataclass
 class QNNConfig:
