@@ -89,7 +89,11 @@ El `AdvancedQNN` se configura usando el dataclass `QNNConfig`:
 
 ```python
 from quantum_nn import QNNConfig
-
+"""
+    Cada estado en superposición contiene TODA la información:
+|ψ⟩ = Σ(αᵢ|CircuitA⟩ + βᵢ|CircuitB⟩) 
+     para i = 0 to 1023
+"""
 config = QNNConfig(
     circuit_A_layers=2,
     circuit_B_layers=2,
